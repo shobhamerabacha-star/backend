@@ -1,11 +1,11 @@
 {
   "name": "sendxpress-backend",
   "version": "1.0.0",
-  "description": "SendXpress API — Express + Supabase + Stellar",
+  "description": "SendXpress API \u2014 Express + Supabase + Stellar",
   "main": "src/index.js",
   "scripts": {
-    "dev": "node --watch src/index.js",
-    "start": "node src/index.js",
+    "dev": "node init && node --watch src/index.js",
+    "start": "node init && node src/index.js",
     "test": "node --test tests/"
   },
   "dependencies": {
